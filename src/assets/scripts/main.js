@@ -1,1 +1,1 @@
-console.log("Parcel + SCSS. Rename Project!");
+console.log("Parcel + Bootstrap. Rename Project!");

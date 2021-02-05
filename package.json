@@ -8,7 +8,7 @@
   "scripts": {
     "start": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html",
-    "format": "prettier ./src"
+    "format": "prettier ./src/**"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -20,5 +20,8 @@
     "postcss-modules": "^4.0.0",
     "prettier": "^2.2.1",
     "sass": "^1.32.6"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
   }
 }
