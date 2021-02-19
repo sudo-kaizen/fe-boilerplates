@@ -6,19 +6,17 @@
   "author": "Orim Dominic <orimdominic@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html",
+    "dev": "vite serve src",
+    "build": "vite build",
+    "preview": "vite preview",
     "format": "prettier ./src"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@parcel/transformer-css": "^2.0.0-alpha.3",
-    "@parcel/transformer-postcss": "^2.0.0-alpha.3",
     "autoprefixer": "^9.8.6",
-    "parcel": "^2.0.0-beta.1",
     "postcss": "^8.2.4",
-    "postcss-modules": "^4.0.0",
     "prettier": "^2.2.1",
-    "sass": "^1.32.6"
+    "sass": "^1.32.6",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.1"
   }
 }
